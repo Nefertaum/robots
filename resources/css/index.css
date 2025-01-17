@@ -1,0 +1,54 @@
+ * {
+	color: #228B22;
+	font-family: cursive;
+	background-color: #cbbd93;
+}
+h1 {
+	color: blue;
+}
+
+#artisticinspiration {
+	color: blue;
+	font-size: 24px;
+	font-family: arial;
+	top: 80 %;
+	margin-left: 20px;
+}
+
+main {
+		background-image: url("images/artisticinspiration.jpeg");
+}
+
+#image {
+	background-image: url("images/artisticinspiration.jpeg");
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+
+body {
+   width: 400px;
+	margin: 0 auto;
+}
+
+nav {
+	width: 200px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background-color: #7d393a; 
+	border: solid #7d393a 3px;
+}
+
+ul {
+	background-color: red;
+	width: 75%;
+	float: left;
+	content-color: red;
+}
+
+ul li a {
+	background-color: #7d393a;
+}
+
