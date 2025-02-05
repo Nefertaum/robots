@@ -1,6 +1,10 @@
- * {
+* {
+	color:  #8090C2;
 	font-family: cursive;
+	/*I would like to give sand like backround color to every element expect navigation*/
+	/*background-color: #C2B280;*/
 }
+/*bodyrz*/
 
 h1 {
   color: blue;
@@ -14,40 +18,73 @@ h1 {
   margin-left: 20px;
 }
 
-/*setting up background image*/
 
-main {
-  background-image: url("images/artisticinspiration.jpeg");
-}
+/* this is unused code for bacground image, later I would like to use it differently*/
 
-#image {
-  background-image: url("images/artisticinspiration.jpeg");
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-}
+/*#image {
+	background-image: url("../../images/artisticinspiration.jpeg");
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}*/
 
 body {
-  width: 400px;
-  margin: 0 auto;
+   width: 400px;
+	margin: 0 auto;
+	background-color: #C2B280;
 }
 
 nav {
-  width: 200px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  background-color: #7d393a;
-  border: solid #7d393a 3px;
+	width: 200px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: #7d393a; 
+	border: solid #7d393a 3px;
+	
+}
+/* for some reason this are "dots" in navigation*/
+/*ul {
+	background-color: #7d393a;
+	width: 75%;
+	
+	float: left;
+	content-color: #7d393a;
 }
 
-ul {
-  background-color: red;
-  width: 75%;
-  float: left;
+/*selector for list item*/
+
+/*ul li {
+	background-color: #7d393a;
 }
 
-ul li a {
-  background-color: #7d393a;
+/*this are navigation anchors*/
+
+/*ul li a {
+	background-color: #7d393a;
+	border: solid #7d393a 1px;
+}
+
+#navigation {
+	background-color: #7d393a;
+}
+
+/* "Information" in navigation*/
+
+/*.nav1 h2{
+	background-color: #7d393a;
+	width: 70%;
+	position: relative;
+	left: 30px;
+}
+*/
+
+
+#img1 {
+	border: solid red;
+	width: 180px;
+	border-radius: 180px;
+	position: relative;
+	left: 120px;
 }
